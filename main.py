@@ -3,6 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 
 model=OllamaLLM(model="llama3.2")
+github_tocken="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"
 
 template="""
 You are an exeprt in answering questions about a pizza restaurant
