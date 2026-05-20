@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 
 model=OllamaLLM(model="llama3.2")
-github_tocken="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"
+github_token=os.environ.get("GITHUB_TOKEN")
 
 template="""
 You are an exeprt in answering questions about a pizza restaurant
